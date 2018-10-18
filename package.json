@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "node ./src && webpack install"
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",
