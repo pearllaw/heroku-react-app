@@ -26,10 +26,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "webpack",
-    "dev": "webpack-dev-server",
-    "watch": "npm-run-all --parallel start dev",
-    "postinstall": "npm run start && npm run build"
+    "postinstall": "node ./src && webpack install"
   },
   "repository": {
     "type": "git",
