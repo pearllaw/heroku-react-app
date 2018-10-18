@@ -29,7 +29,7 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "watch": "npm-run-all --parallel start dev",
-    "postinstall": "webpack install && src/ build"
+    "postinstall": "npm run start && npm run build"
   },
   "repository": {
     "type": "git",
